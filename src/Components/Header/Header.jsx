@@ -124,7 +124,7 @@ const HeaderStyles = styled.header`
         .nav-icons{
             display: block;
 
-            i{
+            .myBtn{
                 color: var(--black);
                 font-size: 30px;
                 cursor: pointer;
@@ -202,7 +202,7 @@ function Header(){
                     <img src={ PHOTOS.LOGO } alt="logo" />
 
                     <div className="nav-icons" onClick={handleClick}>
-                        {click ? <IoClose /> : <FiMenu />}
+                        {click ? <IoClose className="myBtn" /> : <FiMenu className="myBtn" />}
                     </div>
                 </div>
 
