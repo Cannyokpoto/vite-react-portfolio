@@ -69,7 +69,7 @@ const AboutStyles = styled.div`
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-around;
-        margin-top: 70px;
+        margin-top: 80px;
         gap: 15px;
 
 

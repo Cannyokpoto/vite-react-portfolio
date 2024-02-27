@@ -40,12 +40,12 @@ const HeroStyles = styled.div`
             flex-direction: column;
             align-items: flex-start;
             gap: 30px;
-            margin-top: 40px;
+            margin-top: 80px;
 
            h5{
             color: black;
             position: relative;
-            padding-left: 5px;
+            padding-left: 10px;
 
                 &::before{
                     content: "";
@@ -139,7 +139,7 @@ const HeroStyles = styled.div`
             flex-direction: column;
             align-items: flex-start;
             gap: 30px;
-            margin-top: 20px;
+            margin-top: 40px;
 
            h5{
             color: black;
@@ -164,8 +164,8 @@ const HeroStyles = styled.div`
                 gap: 20px;
 
                 span{
-                    width: 15vw;
-                    height: 70px;
+                    width: 10vw;
+                    height: 50px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
