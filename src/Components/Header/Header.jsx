@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { useState } from "react";
 import PHOTOS from "../Assets/index";
 import { Link } from 'react-scroll';
+import { FiMenu } from "react-icons/fi";
+import { IoClose } from "react-icons/io5";
 
 
 
@@ -200,7 +202,7 @@ function Header(){
                     <img src={ PHOTOS.LOGO } alt="logo" />
 
                     <div className="nav-icons" onClick={handleClick}>
-                        <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+                        {click ? <IoClose /> : <FiMenu />}
                     </div>
                 </div>
 
