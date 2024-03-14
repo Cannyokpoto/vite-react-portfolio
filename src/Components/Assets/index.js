@@ -8,8 +8,8 @@ const PHOTOS = {
     LOGO:   new URL("./rp logo.png", import.meta.url).href,
     LOGO_W:   new URL("./gf logo w.png", import.meta.url).href,
     
-    html:  new URL("./html.png", import.meta.url).href,
-    css:  new URL("./css.jpg", import.meta.url).href,
+    figma:  new URL("./figma.png", import.meta.url).href,
+    postman:  new URL("./postman.png", import.meta.url).href,
     js:  new URL("./js.png", import.meta.url).href,
 
     tw:  new URL("./tailwind.png", import.meta.url).href,
