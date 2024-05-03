@@ -208,7 +208,7 @@ function Hero(){
                 <div className="left-hand-side">
                     <h1><span>ReactJS </span> Developer</h1>
 
-                    <p>Hi, I'm Promise Okpoto, a passionate front-end react developer based in Lagos state, Nigeria.</p>
+                    <p>Hi, I'm Promise Okpoto, an experienced reactJS developer based in Lagos state, Nigeria.</p>
 
                     <div className="tech-stack">
                         

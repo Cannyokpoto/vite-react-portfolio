@@ -10,6 +10,14 @@ const projectData = [
   },
 
   {
+    image: PHOTOS.project6,
+    title: "HANDIWORK",
+    code: "/",
+    demo: "https://page-handiwork.vercel.app/",
+    description: "Handiwork is an online marketplace which is aimed at connecting service providers with their potential clients, based on their location.",
+  },
+
+  {
     image: PHOTOS.project2,
     title: "BUDGET MART",
     code: "https://github.com/Cannyokpoto/budget-mart",

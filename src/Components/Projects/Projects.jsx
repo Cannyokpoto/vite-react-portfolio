@@ -14,6 +14,7 @@ const ProjectsStyles = styled.div`
     margin-top: 30px;
     gap: 30px;
 
+
     .top{
         width: 90vw;
         height: 90px;
@@ -380,6 +381,7 @@ function Projects(){
                         )
                     })
                 }
+
             </ProjectsStyles>
         )
 };

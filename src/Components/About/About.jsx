@@ -139,15 +139,15 @@ function About(){
 
                 <div className="right-hand-side">
                     <span>About Me</span>
-                    <h1>A passionate front-end react developer.</h1>
+                    <h1>An Experienced React Developer.</h1>
                     <div className="usp">
-                        <p>As a front-end developer, I possess 
-                            an impressive arsenal of skills in HTML, CSS, bootstrap, tailwind CSS, javaScript 
-                            and React JS. I'm proficient in developing and maintaining 
-                            responsive websites and web applications that offer a smooth user experience.</p>
+                        <p>As a reactJS developer with an impressive arsenal of skills, 
+                             I'm constantly seeking to leverage expertise in frontend web development
+                             to contribute to dynamic and innovative projects.</p>
 
-                        <p>My expertise lies in developing dynamic and engaging 
-                            interfaces through writing clean and optimized codes, utilizing cutting edge development tools and technigues.</p>
+                        <p>My expertise lies in developing interactive 
+                            interfaces through writing clean and optimized codes, 
+                            utilizing cutting edge development tools and technigues.</p>
 
                         <p>I am also a team player who thrives in 
                             collaborating with cross-functional teams to

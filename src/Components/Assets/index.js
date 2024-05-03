@@ -21,6 +21,7 @@ const PHOTOS = {
     project4:  new URL("./energy mall.png", import.meta.url).href,
     project3:  new URL("./get fit.png", import.meta.url).href,
     project2:  new URL("./Budget mart.png", import.meta.url).href,
+    project6:  new URL("./handiwork.png", import.meta.url).href,
     logo1:  new URL("./rare logo.png", import.meta.url).href,
     logo2:  new URL("./budget mart logo.png", import.meta.url).href,
     logo3:  new URL("./gf logo b.png", import.meta.url).href,
