@@ -45,6 +45,7 @@ const ProjectsStyles = styled.div`
         margin-top: 30px;
         box-shadow: var(--boxShadow);
         border: solid 1px grey;
+        border-radius: 5px;
 
 
         .left-hand-side{
