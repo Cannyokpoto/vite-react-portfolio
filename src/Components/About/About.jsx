@@ -35,6 +35,7 @@ const AboutStyles = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        gap: 20px;
 
         span{
             color: var(--cannyBlue);
@@ -139,7 +140,6 @@ function About(){
 
                 <div className="right-hand-side">
                     <span>About Me</span>
-                    <h1>An Experienced React Developer.</h1>
                     <div className="usp">
                         <p>As a reactJS developer with an impressive arsenal of skills, 
                              I'm constantly seeking to leverage expertise in frontend web development
