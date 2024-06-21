@@ -2,19 +2,19 @@ import PHOTOS from '../Assets/index';
 
 const projectData = [
   {
-    image: PHOTOS.project1,
-    title: "RARE IMAGES",
-    code: "https://github.com/Cannyokpoto/rare-images",
-    demo: "https://rare-images.vercel.app/",
-    description: "Rare images is a professional photography brand. Our Goal is to capture your happy moments and keep the memories alive.",
-  },
-
-  {
     image: PHOTOS.project6,
     title: "HANDIWORK",
     code: "/",
     demo: "https://page-handiwork.vercel.app/",
     description: "Handiwork is an online marketplace which is aimed at connecting service providers with their potential clients, based on their location.",
+  },
+
+  {
+    image: PHOTOS.project1,
+    title: "RARE IMAGES",
+    code: "https://github.com/Cannyokpoto/rare-images",
+    demo: "https://rare-images.vercel.app/",
+    description: "Rare images is a professional photography brand. Our Goal is to capture your happy moments and keep the memories alive.",
   },
 
   {
