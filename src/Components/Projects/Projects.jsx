@@ -31,7 +31,8 @@ const ProjectsStyles = styled.div`
         }
 
         >h2{
-            font-size: 20px;
+            font-size: 15px;
+            font-weight: 400;
         }
     }
 
@@ -195,6 +196,11 @@ const ProjectsStyles = styled.div`
         >h1{
             color: var(--cannyBlue);
             font-size: 25px;
+        }
+
+        >h2{
+            font-size: 15px;
+            font-weight: 400;
         }
 
         >p{
