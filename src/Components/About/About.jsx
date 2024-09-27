@@ -3,95 +3,101 @@ import PHOTOS from "../Assets/index";
 import styled from "styled-components";
 
 const AboutStyles = styled.div`
+  width: 90vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 150px;
 
-    width: 90vw;
-    height: 75vh;
+  .left-hand-side {
+    width: 45%;
+    height: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .right-hand-side {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    span {
+      color: var(--cannyBlue);
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .usp {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 80px;
+    gap: 15px;
 
-    .left-hand-side{
-        width: 45%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
+    .left-hand-side {
+      width: 100%;
+      height: 210px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
 
-
-        img{
-            width: 100%;
-            height: 100%;
-        }
-
-}
-
-
-    .right-hand-side{
-        width: 40%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-
-        span{
-            color: var(--cannyBlue);
-        }
-
-        h1{
-            font-size: 30px;
-        }
-
-        .usp{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-
-                p{
-                font-size: 15px;
-            }
-        }
-
-    
-
-}
-
-    @media (max-width: 500px){
-
-        width: 90vw;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        margin-top: 80px;
-        gap: 15px;
-
-
-    .left-hand-side{
+      img {
         width: 100%;
-        height: 210px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        height: 100%;
+      }
+    }
 
+    .right-hand-side {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
 
-        img{
-            width: 100%;
-            height: 100%;
-        }
+      span {
+        color: var(--cannyBlue);
+        font-size: 15px;
+        font-weight: 700;
+      }
 
-}
+      h1 {
+        font-size: 25px;
+      }
 
-
-    .right-hand-side{
+      .usp {
         width: 100%;
         height: 100%;
         display: flex;
@@ -99,66 +105,44 @@ const AboutStyles = styled.div`
         align-items: flex-start;
         gap: 10px;
 
-
-        span{
-            color: var(--cannyBlue);
-            font-size: 15px;
-            font-weight: 700;
+        p {
+          font-size: 15px;
+          line-height: 1.5;
         }
-
-        h1{
-            font-size: 25px;
-        }
-
-        .usp{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
-
-                p{
-                font-size: 15px;
-                line-height: 1.5;
-            }
-        }
-    }   
-}
+      }
+    }
+  }
 `;
 
+function About() {
+  return (
+    <AboutStyles className="hero-section" id="about">
+      <div className="left-hand-side">
+        <img src={PHOTOS.about} alt="" />
+      </div>
 
+      <div className="right-hand-side">
+        <span>About Me</span>
+        <div className="usp">
+          <p>
+            I’m an experienced fullstack developer with a strong foundation in
+            building dynamic and responsive web applications. With experience
+            across MongoDB, Express.js, React.js, and Node.js, I specialize in
+            creating full-stack solutions that are scalable, efficient, and
+            user-friendly.
+          </p>
 
-function About(){
-
-        return(
-            <AboutStyles className="hero-section" id="about">
-        
-                <div className="left-hand-side">
-                    <img src={PHOTOS.about} alt=""/>
-                </div>
-
-                <div className="right-hand-side">
-                    <span>About Me</span>
-                    <div className="usp">
-                        <p>As a reactJS developer with an impressive arsenal of skills, 
-                             I'm constantly seeking to leverage expertise in frontend web development
-                             to contribute to dynamic and innovative projects.</p>
-
-                        <p>My expertise lies in developing interactive 
-                            interfaces through writing clean and optimized codes, 
-                            utilizing cutting edge development tools and technigues.</p>
-
-                        <p>I am also a team player who thrives in 
-                            collaborating with cross-functional teams to
-                            produce outstanding web applications.</p> 
-                    </div>
-                </div>
-            </AboutStyles>
-        )
-};
-
-
-    
+          <p>
+            From designing sleek front-end interfaces to implementing robust
+            back-end architectures, I enjoy every aspect of the development
+            lifecycle. I thrive in collaborative environments, am committed to
+            writing clean, maintainable code, and continuously stay updated with
+            the latest trends and best practices in the tech world.
+          </p>
+        </div>
+      </div>
+    </AboutStyles>
+  );
+}
 
 export default About;
