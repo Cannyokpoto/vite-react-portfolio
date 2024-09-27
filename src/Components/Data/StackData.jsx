@@ -23,6 +23,26 @@ const StackData = [
   },
 
   {
+    name: "Cloudinary",
+    image: PHOTOS.cloud,
+  },
+
+  {
+    name: "MongoDB",
+    image: PHOTOS.mongo,
+  },
+
+  {
+    name: "Node.JS",
+    image: PHOTOS.node,
+  },
+
+  {
+    name: "Express.JS",
+    image: PHOTOS.express,
+  },
+
+  {
     name: "Github",
     image: PHOTOS.gh,
   },

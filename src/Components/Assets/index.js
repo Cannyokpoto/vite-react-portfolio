@@ -16,6 +16,12 @@ const PHOTOS = {
     bt:  new URL("./bootstrap.png", import.meta.url).href,
     gh:  new URL("./github.png", import.meta.url).href,
     reactjs:  new URL("./React.png", import.meta.url).href,
+    cloud:  new URL("./cloud.jpg", import.meta.url).href,
+    mongo:  new URL("./mongo.png", import.meta.url).href,
+    express:  new URL("./express.png", import.meta.url).href,
+    node:  new URL("./node.png", import.meta.url).href,
+
+
     project1:  new URL("./Rare Image.png", import.meta.url).href,
     project5:  new URL("./my farm.png", import.meta.url).href,
     project4:  new URL("./energy mall.png", import.meta.url).href,

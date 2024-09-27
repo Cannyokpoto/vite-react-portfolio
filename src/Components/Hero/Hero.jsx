@@ -206,9 +206,9 @@ function Hero(){
         return(
             <HeroStyles className="hero-section" id="hero">
                 <div className="left-hand-side">
-                    <h1><span>ReactJS </span> Developer</h1>
+                    <h1><span>Fullstack </span> Developer</h1>
 
-                    <p>Hi, I'm Promise Okpoto, an experienced reactJS developer based in Lagos state, Nigeria.</p>
+                    <p>Hi, I'm Promise Okpoto, an experienced fullstack developer based in Lagos state, Nigeria.</p>
 
                     <div className="tech-stack">
                         
