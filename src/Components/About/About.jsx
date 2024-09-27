@@ -18,10 +18,12 @@ const AboutStyles = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    
 
     img {
       width: 100%;
       height: 100%;
+      border-radius: 10px;
     }
   }
 
@@ -51,6 +53,7 @@ const AboutStyles = styled.div`
 
       p {
         font-size: 15px;
+        line-height: 1.5;
       }
     }
   }
@@ -72,10 +75,12 @@ const AboutStyles = styled.div`
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
+      
 
       img {
         width: 100%;
         height: 100%;
+        border-radius: 5px;
       }
     }
 
