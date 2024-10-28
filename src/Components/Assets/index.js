@@ -7,6 +7,7 @@ const PHOTOS = {
     HERO: new URL("./hero.png", import.meta.url).href,
     LOGO:   new URL("./rp logo.png", import.meta.url).href,
     LOGO_W:   new URL("./gf logo w.png", import.meta.url).href,
+    new_logo:   new URL("./new_logo.png", import.meta.url).href,
     
     figma:  new URL("./figma.png", import.meta.url).href,
     postman:  new URL("./postman.png", import.meta.url).href,
@@ -28,6 +29,7 @@ const PHOTOS = {
     project3:  new URL("./get fit.png", import.meta.url).href,
     project2:  new URL("./Budget mart.png", import.meta.url).href,
     project6:  new URL("./handiwork.png", import.meta.url).href,
+    project7:  new URL("./vogue_vista.png", import.meta.url).href,
     logo1:  new URL("./rare logo.png", import.meta.url).href,
     logo2:  new URL("./budget mart logo.png", import.meta.url).href,
     logo3:  new URL("./gf logo b.png", import.meta.url).href,

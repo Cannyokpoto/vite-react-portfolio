@@ -24,15 +24,15 @@ const HeaderStyles = styled.header`
     z-index: 7;
 
     .logo{
-    width: 20%;
-    height: 100%;
+    width: 10%;
+    height: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 
     img{
-    width: 70%;
+    width: 100%;
     height: 100%;
     }
 
@@ -118,7 +118,7 @@ const HeaderStyles = styled.header`
 
         img{
             width: 30%;
-            height: 60%
+            height: 40%
         }
 
         .nav-icons{
@@ -199,7 +199,7 @@ function Header(){
         return(
             <HeaderStyles>
                 <div className="logo">
-                    <img src={ PHOTOS.LOGO } alt="logo" />
+                    <img src={ PHOTOS.new_logo } alt="logo" />
 
                     <div className="nav-icons" onClick={handleClick}>
                         {click ? <IoClose className="myBtn" /> : <FiMenu className="myBtn" />}

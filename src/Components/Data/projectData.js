@@ -1,6 +1,15 @@
 import PHOTOS from '../Assets/index';
 
 const projectData = [
+
+  {
+    image: PHOTOS.project7,
+    title: "VOGUE VISTA",
+    code: "/",
+    demo: "https://vogue-vista-steel.vercel.app/",
+    description: "Handiwork is an online marketplace which is aimed at connecting service providers with their potential clients, based on their location.",
+  },
+
   {
     image: PHOTOS.project6,
     title: "HANDIWORK",
