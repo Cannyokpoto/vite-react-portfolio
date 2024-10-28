@@ -132,7 +132,7 @@ function About() {
           <p>
             I’m an experienced fullstack developer with a strong foundation in
             building dynamic and responsive web applications. With experience
-            across MongoDB, Express.js, React.js, and Node.js, I specialize in
+            across MongoDB, Express.js, React.js, and NodeJs. I specialize in
             creating full-stack solutions that are scalable, efficient, and
             user-friendly.
           </p>

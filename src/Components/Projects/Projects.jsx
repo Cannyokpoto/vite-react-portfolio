@@ -87,12 +87,13 @@ const ProjectsStyles = styled.div`
 
         .tools{
             font-size: 20px;
-            width: 40%;
-            height: 50px;
+            width: 100%;
+            height: auto;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            gap: 10px;
 
             
             p{
@@ -100,11 +101,22 @@ const ProjectsStyles = styled.div`
                 color: black;
             }
 
-            h5{
-                color: gray;
+            .tool-list{
+                font-size: 15px;
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            p{
+                color: var(--cannyBlue);
 
                 span{
-                    font-weight: 700;
                     color: black;
                 }
             }
@@ -257,18 +269,30 @@ const ProjectsStyles = styled.div`
 
         .tools{
             font-size: 20px;
-            width: 60%;
-            height: 50px;
+            width: 100%;
+            height: auto;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            gap: 30px;
+            gap: 10px;
             
 
             p{
                 font-weight: 700;
                 color: black;
+            }
+
+
+            .tool-list{
+                font-size: 15px;
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                flex-wrap: wrap;
             }
 
             h5{
@@ -368,8 +392,14 @@ function Projects(){
                                     <p>{project.description}</p>
 
                                     <div className="tools"> 
-                                        <p>Tools:</p>
-                                        <h5>React <span>|</span> CSS</h5>
+                                        <p>Technologies:</p>
+                                        <div className="tool-list">
+                                            {
+                                                project.tools.map((tool, i)=>
+                                                    <div key={i}>{tool} <span>|</span></div>
+                                                )
+                                            }
+                                        </div>
                                     </div>
 
                                     <div className="code-demo">
