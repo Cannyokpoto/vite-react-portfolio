@@ -295,8 +295,9 @@ const ProjectsStyles = styled.div`
                 flex-wrap: wrap;
             }
 
-            h5{
-                color: gray;
+            p{
+                width: 100%;
+                text-align: left;
             }
         }
 
