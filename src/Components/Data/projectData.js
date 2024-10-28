@@ -42,16 +42,14 @@ const projectData = [
   },
 
 
-  {
-    image: PHOTOS.project5,
-    title: "NICEOMA INTEGRATED FARM",
-    code: "https://github.com/Cannyokpoto/niceoma-farm",
-    demo: "https://niceoma-farm.vercel.app/",
-    description: "Niceoma is a livestock farm located in the heart of Lokoja, Kogi state. Our farm is more than a place where livestocks are reared; it's a testament to our commitment to responsible farming practices and a connection to the land.",
-  },
+  // {
+  //   image: PHOTOS.project5,
+  //   title: "NICEOMA INTEGRATED FARM",
+  //   code: "https://github.com/Cannyokpoto/niceoma-farm",
+  //   demo: "https://niceoma-farm.vercel.app/",
+  //   description: "Niceoma is a livestock farm located in the heart of Lokoja, Kogi state. Our farm is more than a place where livestocks are reared; it's a testament to our commitment to responsible farming practices and a connection to the land.",
+  // },
 
-  
-  
 ];
 
 export default projectData;
