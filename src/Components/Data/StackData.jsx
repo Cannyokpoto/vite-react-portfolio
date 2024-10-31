@@ -43,7 +43,7 @@ const StackData = [
   },
 
   {
-    name: "Github",
+    name: "Git",
     image: PHOTOS.gh,
   },
 
