@@ -33,7 +33,7 @@ const projectData = [
       for tech courses like frontend, backend, data analytics, cybersecurity, 
       and graphics design. With a user-friendly interface, automated grading, and real-time results, it provides a 
       seamless testing experience for Page Innovations students and instructors, ensuring efficient and secure evaluations.`,
-      tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary"]
+      tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"]
   },
 
   {
