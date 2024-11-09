@@ -25,7 +25,7 @@ const projectData = [
 
   {
     image: PHOTOS.project8,
-    title: "INNOVATORS TEST",
+    title: "INNOVATORS QUIZ",
     code: "/",
     demo: "https://page-quiz.vercel.app/",
     description:
