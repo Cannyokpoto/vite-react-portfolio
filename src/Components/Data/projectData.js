@@ -24,6 +24,19 @@ const projectData = [
   },
 
   {
+    image: PHOTOS.project8,
+    title: "INNOVATORS TEST",
+    code: "/",
+    demo: "https://page-quiz.vercel.app/",
+    description:
+      `This web application streamlines online assessments 
+      for tech courses like frontend, backend, data analytics, cybersecurity, 
+      and graphics design. With a user-friendly interface, automated grading, and real-time results, it provides a 
+      seamless testing experience for Page Innovations students and instructors, ensuring efficient and secure evaluations.`,
+      tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary"]
+  },
+
+  {
     image: PHOTOS.project2,
     title: "BUDGET MART",
     code: "https://github.com/Cannyokpoto/budget-mart",
