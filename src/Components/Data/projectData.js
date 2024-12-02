@@ -5,7 +5,7 @@ const projectData = [
     image: PHOTOS.project7,
     title: "VOGUE VISTA",
     code: "/",
-    demo: "https://vogue-vista-steel.vercel.app/",
+    demo: "https://vogue-vista-interface.vercel.app/",
     description: `Vogue Vista is a stylish e-commerce platform that 
     brings the latest in fashion and accessories to your fingertips. 
     Catering to trendsetters and fashion enthusiasts, Vogue Vista offers a curated 
