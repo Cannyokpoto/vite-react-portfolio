@@ -14,6 +14,15 @@ const projectData = [
   },
 
   {
+    image: PHOTOS.project9,
+    title: "iLock Tribe",
+    code: "/",
+    demo: "https://ilock-tribe-frontend.vercel.app",
+    description: `iLock Tribe is a secure crypto savings platform designed to empower users with financial flexibility. It allows users to save in USDT, a stable cryptocurrency, and withdraw their savings seamlessly in Naira. With a focus on reliability, transparency, and ease of use, iLock Tribe bridges the gap between digital assets and local currencies.`,
+    tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB",]
+  },
+
+  {
     image: PHOTOS.project6,
     title: "HANDIWORK",
     code: "/",
