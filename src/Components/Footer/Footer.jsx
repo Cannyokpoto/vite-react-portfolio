@@ -122,6 +122,10 @@ const FooterStyles = styled.footer`
 
 function Footer(){
 
+    const date = new Date;
+
+    const year = date.getFullYear();
+
         return(
             <FooterStyles className="my-footer">
                 <div className="socials">
@@ -132,7 +136,7 @@ function Footer(){
                     <a href="https://www.linkedin.com/in/promise-okpoto-8ba746231"><FaLinkedin className="my-soc" /></a>
                 </div>
                 <hr/>
-                <small>Copyright <div dangerouslySetInnerHTML={{__html: '&#169;'}}></div>2024. All rights reserved <span>Promise Okpoto</span></small>
+                <small>Copyright <div dangerouslySetInnerHTML={{__html: '&#169;'}}></div>{year}. All rights reserved <span>Promise Okpoto</span></small>
             </FooterStyles>
         )
 };
