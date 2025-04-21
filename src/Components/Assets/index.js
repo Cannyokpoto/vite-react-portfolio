@@ -21,6 +21,8 @@ const PHOTOS = {
     mongo:  new URL("./mongo.png", import.meta.url).href,
     express:  new URL("./express.png", import.meta.url).href,
     node:  new URL("./node.png", import.meta.url).href,
+    typescript:  new URL("./typescript.png", import.meta.url).href,
+    next:  new URL("./next.jpg", import.meta.url).href,
 
 
     project1:  new URL("./Rare Image.png", import.meta.url).href,

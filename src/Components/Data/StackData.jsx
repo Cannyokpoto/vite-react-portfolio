@@ -8,8 +8,18 @@ const StackData = [
   },
 
   {
-    name: "ReactJS",
+    name: "React.JS",
     image: PHOTOS.reactjs,
+  },
+
+  {
+    name: "TypeScript",
+    image: PHOTOS.typescript,
+  },
+
+  {
+    name: "Next.JS",
+    image: PHOTOS.next,
   },
 
   {
