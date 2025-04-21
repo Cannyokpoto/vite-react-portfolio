@@ -74,7 +74,7 @@ const HeroStyles = styled.div`
 
                         img{
                         width: 100%;
-                        height: 60%;
+                        height: auto;
                     }
 
                        p{
@@ -174,7 +174,7 @@ const HeroStyles = styled.div`
 
                         img{
                         width: 100%;
-                        height: 60%;
+                        height: auto;
                     }
 
                        p{
