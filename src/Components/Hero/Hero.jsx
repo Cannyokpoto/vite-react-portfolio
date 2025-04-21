@@ -161,7 +161,7 @@ const HeroStyles = styled.div`
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
-                gap: 20px;
+                gap: 30px;
 
                 span{
                     width: 10vw;
