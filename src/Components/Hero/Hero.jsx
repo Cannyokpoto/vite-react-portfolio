@@ -103,12 +103,12 @@ const HeroStyles = styled.div`
     @media (max-width: 500px){
     
         width: 90vw;
-        height: 450px;
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin-top: 120px;
+        margin-top: 70px;
 
 
     .left-hand-side{
