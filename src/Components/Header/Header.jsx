@@ -25,7 +25,7 @@ const HeaderStyles = styled.header`
 
     .logo{
     width: 10%;
-    height: 40%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,7 +118,7 @@ const HeaderStyles = styled.header`
 
         img{
             width: 30%;
-            height: 40%
+            height: auto;
         }
 
         .nav-icons{
