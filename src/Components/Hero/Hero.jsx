@@ -10,7 +10,7 @@ const HeroStyles = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 100px;
 
     .left-hand-side{
         width: 45%;
@@ -22,7 +22,7 @@ const HeroStyles = styled.div`
 
 
         h1{
-            font-size: 55px;
+            font-size: 40px;
 
             span{
                 color: var(--cannyBlue);

@@ -160,7 +160,7 @@ const ProjectsStyles = styled.div`
             }
 
             .source{
-                width: 40%;
+                width: 50%;
                 height: 100%;
                 display: flex;
                 flex-direction: row;
