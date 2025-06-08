@@ -39,7 +39,7 @@ const projectData = [
     image: PHOTOS.project11,
     title: "QX5 COSMECEUTICALS",
     code: "/",
-    demo: "https://qx5-frontend.vercel.app/",
+    demo: "https://qx5-interface.vercel.app/",
     description: `QX5 Cosmeceuticals is a pioneering skincare brand dedicated to delivering innovative, clinically-backed products that transform skin health.`,
     tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary",]
   },
