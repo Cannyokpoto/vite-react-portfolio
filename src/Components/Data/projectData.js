@@ -6,7 +6,7 @@ const projectData = [
     image: PHOTOS.project10,
     title: "CROSSTIE SOLUTIONS",
     code: "/",
-    demo: "https://crosstie-frontend.vercel.app/",
+    demo: "https://crosstiesolutions.com",
     description:
       "Crosstie Solutions is a corporate training brand dedicated to empowering professionals and organizations through expert-led training and development programs.",
       tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"]
@@ -17,7 +17,7 @@ const projectData = [
     image: PHOTOS.project8,
     title: "CBT APPLICATION",
     code: "/",
-    demo: "https://page-quiz.vercel.app/",
+    demo: "https://exams.pageinnovations.com.ng/",
     description:
       `This web application streamlines online assessments 
       for tech courses like frontend, backend, data analytics, cybersecurity, 
@@ -30,7 +30,7 @@ const projectData = [
     image: PHOTOS.project9,
     title: "ILOCK Tribe",
     code: "/",
-    demo: "https://ilock-tribe-frontend.vercel.app",
+    demo: "https://ilocktribe.com",
     description: `iLock Tribe is a secure crypto savings platform designed to empower users with financial flexibility. It allows users to save in USDT, a stable cryptocurrency, and withdraw their savings seamlessly in Naira. With a focus on reliability, transparency, and ease of use, iLock Tribe bridges the gap between digital assets and local currencies.`,
     tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB",]
   },
@@ -39,7 +39,7 @@ const projectData = [
     image: PHOTOS.project11,
     title: "QX5 COSMECEUTICALS",
     code: "/",
-    demo: "https://qx5-interface.vercel.app/",
+    demo: "https://www.qx5cosmeceuticals.com",
     description: `QX5 Cosmeceuticals is a pioneering skincare brand dedicated to delivering innovative, clinically-backed products that transform skin health.`,
     tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary",]
   },
