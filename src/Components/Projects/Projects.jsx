@@ -44,7 +44,7 @@ const ProjectsStyles = styled.div`
         align-items: center;
         justify-content: space-around;
         margin-top: 30px;
-        box-shadow: var(--boxShadow);
+        // box-shadow: var(--boxShadow);
         border: solid 1px grey;
         border-radius: 5px;
 
@@ -60,7 +60,7 @@ const ProjectsStyles = styled.div`
 
         img{
             width: 100%;
-            height: 100%;
+            height: 80%;
         }
     }
 }
@@ -380,9 +380,9 @@ function Projects(){
                 </div>
         
                 {
-                    projectData.map((project) =>{
+                    projectData.map((project, i) =>{
                         return(
-                            <div className="project">
+                            <div className="project" key={i}>
                                 <div className="left-hand-side">
                                     <img src={project.image} alt=""/>
                                 </div>
@@ -404,7 +404,7 @@ function Projects(){
                                     </div>
 
                                     <div className="code-demo">
-                                        <a href={project.demo} className="deployed">
+                                        <a href={project.demo} className="deployed" target="_blank">
                                             View Site
                                             <FaExternalLinkAlt className="demo" />
                                         </a>

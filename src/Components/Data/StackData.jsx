@@ -67,6 +67,15 @@ const StackData = [
     image: PHOTOS.postman,
   },
   
+  {
+    name: "AWS",
+    image: PHOTOS.aws,
+  },
+
+  {
+    name: "Azure",
+    image: PHOTOS.azure,
+  },
 ];
 
 export default StackData;

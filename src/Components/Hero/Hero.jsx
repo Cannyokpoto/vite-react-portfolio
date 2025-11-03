@@ -94,8 +94,9 @@ const HeroStyles = styled.div`
         align-items: center;
 
         img{
-            width: 100%;
-            height: 100%;
+            width: 60%;
+            height: auto;
+            border-radius: 20px;
         }
     }
 
@@ -195,7 +196,7 @@ const HeroStyles = styled.div`
 
         img{
             width: 70%;
-            height: 100%;
+            height: auto;
         }
     }
 }
@@ -216,9 +217,9 @@ function Hero(){
 
                         <div className="stack">
                             {
-                                StackData.map((stack) => {
+                                StackData.map((stack, i) => {
                                     return(
-                                        <span>
+                                        <span key={i}>
                                             <img src={stack.image} alt="tool" />
                                             <p>{stack.name}</p>
                                         </span> 

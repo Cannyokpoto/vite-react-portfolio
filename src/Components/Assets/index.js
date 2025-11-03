@@ -4,7 +4,7 @@ const PHOTOS = {
 
     //EXTRAS
     about: new URL("./about.png", import.meta.url).href,
-    HERO: new URL("./hero.png", import.meta.url).href,
+    HERO: new URL("./canny.jpeg", import.meta.url).href,
     LOGO:   new URL("./rp logo.png", import.meta.url).href,
     LOGO_W:   new URL("./gf logo w.png", import.meta.url).href,
     new_logo:   new URL("./new_logo.png", import.meta.url).href,
@@ -23,9 +23,11 @@ const PHOTOS = {
     node:  new URL("./node.png", import.meta.url).href,
     typescript:  new URL("./typescript.png", import.meta.url).href,
     next:  new URL("./next.jpg", import.meta.url).href,
+    aws:  new URL("./aws.png", import.meta.url).href,
+    azure:  new URL("./azure.png", import.meta.url).href,
 
 
-    project1:  new URL("./Rare Image.png", import.meta.url).href,
+    project1:  new URL("./kominiti.png", import.meta.url).href,
     project5:  new URL("./my farm.png", import.meta.url).href,
     project4:  new URL("./energy mall.png", import.meta.url).href,
     project3:  new URL("./get fit.png", import.meta.url).href,

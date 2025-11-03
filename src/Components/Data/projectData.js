@@ -1,6 +1,14 @@
 import PHOTOS from "../Assets/index";
 
 const projectData = [
+  {
+    image: PHOTOS.project1,
+    title: "KOMINITI",
+    code: "/",
+    demo: "https://kominiti.com",
+    description: `Kominiti is a global B2B and freelance marketplace that brings together business professionals, entrepreneurs, job-seekers and freelancers in one community. Users can offer their services, hire talent, take online courses (via its “K-Learning” feature) and participate in a professional social feed (“Wall”).`,
+    tools: ["NextJS", "TypeScript", "ExpressJS", "Sass", "MongoDB"],
+  },
 
   {
     image: PHOTOS.project10,
@@ -9,21 +17,19 @@ const projectData = [
     demo: "https://crosstiesolutions.com",
     description:
       "Crosstie Solutions is a corporate training brand dedicated to empowering professionals and organizations through expert-led training and development programs.",
-      tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"]
+    tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"],
   },
-
 
   {
     image: PHOTOS.project8,
     title: "CBT APPLICATION",
     code: "/",
     demo: "https://exams.pageinnovations.com.ng/",
-    description:
-      `This web application streamlines online assessments 
+    description: `This web application streamlines online assessments 
       for tech courses like frontend, backend, data analytics, cybersecurity, 
       and graphics design. With a user-friendly interface, automated grading, and real-time results, it provides a 
       seamless testing experience for Page Innovations students and instructors, ensuring efficient and secure evaluations.`,
-      tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"]
+    tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"],
   },
 
   {
@@ -32,7 +38,7 @@ const projectData = [
     code: "/",
     demo: "https://ilocktribe.com",
     description: `iLock Tribe is a secure crypto savings platform designed to empower users with financial flexibility. It allows users to save in USDT, a stable cryptocurrency, and withdraw their savings seamlessly in Naira. With a focus on reliability, transparency, and ease of use, iLock Tribe bridges the gap between digital assets and local currencies.`,
-    tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB",]
+    tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"],
   },
 
   {
@@ -41,7 +47,14 @@ const projectData = [
     code: "/",
     demo: "https://www.qx5cosmeceuticals.com",
     description: `QX5 Cosmeceuticals is a pioneering skincare brand dedicated to delivering innovative, clinically-backed products that transform skin health.`,
-    tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary",]
+    tools: [
+      "Next.JS",
+      "Tailwind CSS",
+      "NodeJS",
+      "Express JS",
+      "MongoDB",
+      "Cloudinary",
+    ],
   },
 
   {
@@ -51,7 +64,14 @@ const projectData = [
     demo: "https://page-handiwork.vercel.app/",
     description:
       "Handiwork is an online marketplace which is aimed at connecting service providers with their potential clients, based on their location.",
-      tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary"]
+    tools: [
+      "ReactJS",
+      "Tailwind CSS",
+      "NodeJS",
+      "Express JS",
+      "MongoDB",
+      "Cloudinary",
+    ],
   },
 
   // {
@@ -63,18 +83,6 @@ const projectData = [
   //     "Budget mart is an e-commerce web application aimed at providing seamless online shopping experiences. Our mission is to bring you a diverse selection of high-quality products while ensuring a user-friendly and enjoyable shopping journey.",
   //     tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB", "Cloudinary"]
   // },
-
-  {
-    image: PHOTOS.project1,
-    title: "RARE IMAGES",
-    code: "https://github.com/Cannyokpoto/rare-images",
-    demo: "https://rare-images.vercel.app/",
-    description:
-      "Rare images is a professional photography brand. Our Goal is to capture your happy moments and keep the memories alive.",
-      tools: ["ReactJS", "Tailwind CSS"]
-  },
-
-  
 
   // {
   //   image: PHOTOS.project5,
