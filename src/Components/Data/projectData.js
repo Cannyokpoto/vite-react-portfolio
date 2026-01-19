@@ -32,14 +32,14 @@ const projectData = [
     tools: ["Next.JS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"],
   },
 
-  {
-    image: PHOTOS.project9,
-    title: "ILOCK Tribe",
-    code: "/",
-    demo: "https://ilocktribe.com",
-    description: `iLock Tribe is a secure crypto savings platform designed to empower users with financial flexibility. It allows users to save in USDT, a stable cryptocurrency, and withdraw their savings seamlessly in Naira. With a focus on reliability, transparency, and ease of use, iLock Tribe bridges the gap between digital assets and local currencies.`,
-    tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"],
-  },
+  // {
+  //   image: PHOTOS.project9,
+  //   title: "ILOCK Tribe",
+  //   code: "/",
+  //   demo: "https://ilocktribe.com",
+  //   description: `iLock Tribe is a secure crypto savings platform designed to empower users with financial flexibility. It allows users to save in USDT, a stable cryptocurrency, and withdraw their savings seamlessly in Naira. With a focus on reliability, transparency, and ease of use, iLock Tribe bridges the gap between digital assets and local currencies.`,
+  //   tools: ["ReactJS", "Tailwind CSS", "NodeJS", "Express JS", "MongoDB"],
+  // },
 
   {
     image: PHOTOS.project11,

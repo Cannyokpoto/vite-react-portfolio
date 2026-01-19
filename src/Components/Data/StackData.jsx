@@ -28,8 +28,8 @@ const StackData = [
   },
 
   {
-    name: "Bootstrap",
-    image: PHOTOS.bt,
+    name: "Sass",
+    image: PHOTOS.sass,
   },
 
   {

@@ -15,6 +15,7 @@ const PHOTOS = {
 
     tw:  new URL("./tailwind.png", import.meta.url).href,
     bt:  new URL("./bootstrap.png", import.meta.url).href,
+    sass:  new URL("./sass.png", import.meta.url).href,
     gh:  new URL("./github.png", import.meta.url).href,
     reactjs:  new URL("./React.png", import.meta.url).href,
     cloud:  new URL("./cloud.jpg", import.meta.url).href,
