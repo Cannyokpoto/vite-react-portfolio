@@ -392,16 +392,16 @@ function Projects(){
                                     
                                     <p>{project.description}</p>
 
-                                    <div className="tools"> 
-                                        <p>Technologies:</p>
-                                        <div className="tool-list">
+                                    {/* <div className="tools">  */}
+                                        {/* <p>Technologies:</p> */}
+                                        {/* <div className="tool-list"> */}
                                             {
-                                                project.tools.map((tool, i)=>
-                                                    <div key={i}>{tool} <span>|</span></div>
-                                                )
+                                                // project.tools.map((tool, i)=>
+                                                    // <div key={i}>{tool} <span>|</span></div>
+                                                // )
                                             }
-                                        </div>
-                                    </div>
+                                        {/* </div> */}
+                                    {/* </div> */}
 
                                     <div className="code-demo">
                                         <a href={project.demo} className="deployed" target="_blank">

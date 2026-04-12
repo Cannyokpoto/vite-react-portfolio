@@ -18,6 +18,11 @@ const StackData = [
   },
 
   {
+    name: "React Native",
+    image: PHOTOS.reactjs,
+  },
+
+  {
     name: "Next.JS",
     image: PHOTOS.next,
   },
