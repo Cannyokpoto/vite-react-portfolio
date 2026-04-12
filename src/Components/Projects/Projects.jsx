@@ -405,14 +405,14 @@ function Projects(){
 
                                     <div className="code-demo">
                                         <a href={project.demo} className="deployed" target="_blank">
-                                            View Site
+                                            Preview
                                             <FaExternalLinkAlt className="demo" />
                                         </a>
 
-                                        <a href={project.code} className="source">
+                                        {/* <a href={project.code} className="source">
                                             Source Code
                                             <IoLogoGithub className="demo" />
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
