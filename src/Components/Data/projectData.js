@@ -2,6 +2,15 @@ import PHOTOS from "../Assets/index";
 
 const projectData = [
   {
+    image: PHOTOS.oculus,
+    title: "OCULUS",
+    code: "/",
+    demo: "https://oculus-app.smartcomply.com/",
+    description: `An AI-driven, proactive threat intelligence platform by Smartcomply. It is designed to help organizations shift from reactive incident responses to preemptive defense by continuously monitoring external digital risks beyond your immediate perimeter.`,
+    tools: ["NextJS", "TypeScript", "ExpressJS", "Sass", "MongoDB"],
+  },
+  
+  {
     image: PHOTOS.project1,
     title: "KOMINITI",
     code: "/",
