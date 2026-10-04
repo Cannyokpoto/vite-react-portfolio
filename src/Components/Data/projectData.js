@@ -1,6 +1,16 @@
 import PHOTOS from "../Assets/index";
 
 const projectData = [
+
+  {
+    image: PHOTOS.project12,
+    title: "Homeseek",
+    code: "/",
+    demo: "https://homeseek.ng",
+    description: `Homeseek makes it easier to discover apartments, connect with potential housemates, and navigate the process of finding your next home with confidence.`,
+    tools: ["NextJS", "TypeScript", "ExpressJS", "Sass", "MongoDB"],
+  },
+
   {
     image: PHOTOS.project1,
     title: "KOMINITI",
