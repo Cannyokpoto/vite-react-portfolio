@@ -12,6 +12,15 @@ const projectData = [
   },
 
   {
+    image: PHOTOS.oculus,
+    title: "OCULUS",
+    code: "/",
+    demo: "https://oculus-app.smartcomply.com/",
+    description: `An AI-driven, proactive threat intelligence platform by Smartcomply. It is designed to help organizations shift from reactive incident responses to preemptive defense by continuously monitoring external digital risks beyond your immediate perimeter.`,
+    tools: ["NextJS", "TypeScript", "ExpressJS", "Sass", "MongoDB"],
+  },
+  
+  {
     image: PHOTOS.project1,
     title: "KOMINITI",
     code: "/",
@@ -67,22 +76,22 @@ const projectData = [
     ],
   },
 
-  {
-    image: PHOTOS.project6,
-    title: "HANDIWORK",
-    code: "/",
-    demo: "https://page-handiwork.vercel.app/",
-    description:
-      "Handiwork is an online marketplace which is aimed at connecting service providers with their potential clients, based on their location.",
-    tools: [
-      "ReactJS",
-      "Tailwind CSS",
-      "NodeJS",
-      "Express JS",
-      "MongoDB",
-      "Cloudinary",
-    ],
-  },
+  // {
+  //   image: PHOTOS.project6,
+  //   title: "HANDIWORK",
+  //   code: "/",
+  //   demo: "https://page-handiwork.vercel.app/",
+  //   description:
+  //     "Handiwork is an online marketplace which is aimed at connecting service providers with their potential clients, based on their location.",
+  //   tools: [
+  //     "ReactJS",
+  //     "Tailwind CSS",
+  //     "NodeJS",
+  //     "Express JS",
+  //     "MongoDB",
+  //     "Cloudinary",
+  //   ],
+  // },
 
   // {
   //   image: PHOTOS.project2,
